@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Shopping List</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            /* styling buttons formed using DOM */
+            .purchased {
+                text-decoration: line-through;
+            }
+
+            .marked {
+                font-style: italic;
+                background-color: azure;
+                color: black;
+                font-size: 12px;
+                border-width: 1px;
+                border-radius: 8px;
+                float: right;
+                margin-right: 90px;
+            }
+
+            .marked:hover {
+                background-color: lightgray;
+            }
+
+        </style>
+    </head>
+    <body id="wholeBody">
+        <h3>Zahra Feisal - Phase 1 Week 2 Code Challenge</h3>
+        <div id="listBody">
+        <h2>~ Shopping List ~</h2>
+        <span>
+            <input type="text" placeholder="Add item..." class="input" size="50">
+            <button type="button" id="input" class="btn btn-secondary">Add</button>
+        </span>
+        <ol id="list"></ol>
+        <button type="button" id="clear" class="btn btn-secondary">Clear List</button>
+        <script src="js/index.js" defer></script>
+        <!-- 'defer' works like DOMContentLoaded, js code will only by executed once our HTML is fully loaded -->
+        </div>
+    </body>
+</html>

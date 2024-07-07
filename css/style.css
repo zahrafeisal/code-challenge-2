@@ -1,0 +1,55 @@
+#wholeBody {
+    background-color: azure;
+    text-align: center;
+}
+
+#listBody {
+    background-color: lightblue;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+h2 {
+    padding: 15px;
+    font-family: 'Helvetica Neue';
+    font-weight: 600;
+}
+
+.input {
+    font-style: italic;
+    border-color: azure;
+    border-width: 2px;
+    border-style: outset;
+
+}
+
+#input {
+    font-style: italic;
+    background-color: azure;
+    color: black;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#input:hover {
+    background-color: lightgray;
+}
+
+#list {
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+
+#clear {
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 15px;
+}
