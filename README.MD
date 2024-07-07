@@ -10,7 +10,7 @@ The folder <em>code-challenge-2</em> has 3 folders and 2 files in its root level
 
 
 ### Running the files in the browser
-Open <em>index.html</em> using Live Server or visit <a>Code Challenge 2</a> . You'll encounter a page with an empty shopping list , that has 'Add' and 'Clear List' buttons as well as an input . 
+Open <em>index.html</em> using Live Server or visit <a href="https://zahrafeisal.github.io/code-challenge-2/">Code Challenge 2</a> . You'll encounter a page with an empty shopping list , that has 'Add' and 'Clear List' buttons as well as an input . 
 
 1. To add items to the shopping list , type in the item into the input and click on 'Add' . The item will appear on the list . 
 2. To mark the item as purchased , click on the 'Mark Purchased' button that appears to the rigt of the listed item . 
