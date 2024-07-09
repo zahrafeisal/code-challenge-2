@@ -45,7 +45,13 @@ function addListItem() {
 
     markPurchased.addEventListener('click', function() {   // the value of the 'purchased' in the items's object is updated to true
         listElement.classList.toggle('purchased');
+        if (listElement.classList.contains('purchased')) {
+        markPurchased.textContent = 'Mark Unpurchased';
         shoppingItem.purchased = true;
+        } else {
+            markPurchased.textContent = 'Mark Purchased'
+            shoppingItem.purchased = false;
+        }
     });
 
 
