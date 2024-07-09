@@ -49,7 +49,7 @@ function addListItem() {
         markPurchased.textContent = 'Mark Unpurchased';
         shoppingItem.purchased = true;
         } else {
-            markPurchased.textContent = 'Mark Purchased'
+            markPurchased.textContent = 'Mark Purchased'   // in the case the user chooses to mark the item as not purchased
             shoppingItem.purchased = false;
         }
     });
